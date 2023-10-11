@@ -1,0 +1,58 @@
+div,
+span {
+  margin: 1rem 0 1rem 0;
+}
+
+.passwordGenerator_Container {
+  background-color: #3a3a3a;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.generated_password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password_length_display span {
+  display: flex;
+  justify-content: space-between;
+}
+.checkboxes {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+
+.password_length {
+  width: 100%;
+}
+.error {
+  color: red;
+}
+.password_strength_indicator {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+button {
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background: #0e9682;
+  border: none;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+
+.copy_btn {
+  font-size: x-small;
+}
+.generate_password_btn {
+  width: 100%;
+  padding: 1rem;
+}
